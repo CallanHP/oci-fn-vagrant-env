@@ -1,0 +1,9 @@
+*.log
+*.pem
+
+chp-test-func/
+.vagrant/
+
+.oci/config
+
+config.sh

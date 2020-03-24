@@ -1,0 +1,19 @@
+#!/bin/sh
+#Master config file for setting up the environment.
+#Edit this file, and these values are written into the appropriate places during vagrant provisioning
+
+#Tenancy Info
+tenancy_id=ocid1.tenancy.oc1..aaaaaaaay________________________zyq
+compartment_name=my_functions_compartment
+compartment_id=ocid1.compartment.oc1..aaaaaaaac_____________________6uq
+region=ap-sydney-1
+registry=abc12defg3h
+repo=fn-testing-repo
+
+#Auth information for the user
+user=oracleidentitycloudservice/my.federated.user
+user_ocid=ocid1.user.oc1..aaaaaaaaw_______________________________________hq
+key_fingerprint=12:34:56:78:90:ab:cd:ef:12:34:56
+key_file=/vagrant/api_key/fn_api_key.pem
+key_passphrase="mykeypassphrase"
+token="mytoken"

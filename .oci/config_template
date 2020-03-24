@@ -1,0 +1,7 @@
+[{compartment_name}]
+user={user_ocid}
+fingerprint={key_fingerprint}
+key_file={key_file}
+tenancy={tenancy_id}
+region={region}
+passphrase={key_passphrase}
